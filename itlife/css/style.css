@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+ul li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato';
+    font-style: normal;
+    color: #3C3C3C;
+}
+
+.wrraper {
+    overflow: hidden;
+
+}
+/*--Header--*/
+.header {
+    border-bottom: 1px solid #BDBDBD;
+  
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__image {
+    width: 170px;
+    height: 60px;
+    margin: 10px 0px;
+}
+
+.header__list {
+    display: flex;
+    gap: 30px;
+}
+
+.header__button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 20px;
+}
+
+li>a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3C3C3C;
+}
+a:hover {
+    color: #18B5DC;
+}
+/*--Header End--*/
+/*--Hero--*/
+.hero__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    max-width: 570px;
+    padding-bottom: 53px;
+    
+
+}
+.hero__container {
+    text-align: center; 
+      
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F6F6F6;
+    height: 833px;
+}
+.hero__card {
+    display: flex;
+    gap: 30px;
+}
+
+.hero__title {
+    font-weight: 700;
+font-size: 34px;
+line-height: 41px;
+text-align: center;
+padding-bottom: 62px;
+}
+.card__text {
+    color: #646464;
+}
+.card__img{
+    padding-bottom: 30px;
+}
+.card__name, .card__text {
+    text-align: left;
+}
+
+.card__blue {
+    width: 270px;
+    height: 270px;
+    background: #18B5DC;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 30px;
+}
+.card__blue-box {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.card__footer-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 10px;
+}
+
+.footer__list {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 28px;
+}
+.footer__image {
+    width: 170px;
+    height: 60px;
+    margin: 66px 0px 28px;
+}
