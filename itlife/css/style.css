@@ -15,7 +15,9 @@ ul li {
 button {
     cursor: pointer;
 }
-
+button:hover {
+    background: #18B5DC;
+}
 a,
 a:visited {
     text-decoration: none;
