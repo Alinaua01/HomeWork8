@@ -116,6 +116,16 @@ line-height: 41px;
 text-align: center;
 padding-bottom: 62px;
 }
+
+.hero__title::after{
+    content: '';
+    display: block;
+    width: 45px;
+    height: 4px;
+    background: #DDDBDB;
+    margin: 0 auto;
+    margin-top: 20px;
+}
 .card__text {
     color: #646464;
 }
